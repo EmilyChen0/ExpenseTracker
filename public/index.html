@@ -29,7 +29,15 @@
         </div>
         
         <div class="expenses-section">
-            <h2>Recent Expenses</h2>
+            <div class="expenses-header">
+                <h2>Recent Expenses</h2>
+                <div class="filter-section">
+                    <select id="categoryFilter">
+                        <option value="all">All Categories</option>
+                    </select>
+                    <div class="total-amount">Total: <span id="totalAmount">$0.00</span></div>
+                </div>
+            </div>
             <div id="expensesList"></div>
         </div>
     </div>
